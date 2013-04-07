@@ -1,0 +1,107 @@
+\documentclass{jsarticle}
+\begin{document}
+
+\title{『みんなのPython』メモ}
+\author{ぱろすけ}
+\maketitle
+
+\renewcommand{\presectionname}{Chapter }
+\renewcommand{\postsectionname}{.}
+
+
+\section{}
+\begin{itemize}
+\item \#!/usr/bin/python より \#!/usr/bin/env python を使いましょう
+\end{itemize}
+
+\section{}
+\begin{itemize}
+\item クォートを3つ重ねると改行可能な長い文字列を表すことができる
+\item ord() と chr()
+\item del でリストの要素を削除できる。 del a[2] など。
+\item タプルは辞書のキーとして利用可能
+\end{itemize}
+
+\section{}
+とくになし。
+
+
+\section{}
+\begin{itemize}
+\item 関数名はなるべく小文字だけで付けること。
+\end{itemize}
+
+\section{}
+\begin{itemize}
+\item hex()
+\item raw 文字列
+\item S.rjust(), S.ljust(), S.center() で幅を揃えられる
+\item 数値のフォーマット ex. \%+010.2f
+\item 辞書によるフォーマット ex. "\%(key)s" \% ({"key": "text"})
+\item set 型の xor は A\textasciicircum B
+\item 辞書では get() を使うとデフォルト値が指定できる
+\item 空のリストや辞書は False
+\item enumerate() や zip() をきちんと使おう
+\item 関数の引数に * をつけるとタプルで、** をつけると辞書で受け取る
+\end{itemize}
+
+\section{}
+\begin{itemize}
+\item ファイルオブジェクトはイテレータ
+\end{itemize}
+
+\section{}
+\begin{itemize}
+\item リスト内包表記
+\item ジェネレータ
+\end{itemize}
+
+\section{}
+\begin{itemize}
+\item Decimal というクラスがある
+\item カプセル化したい変数にはアンダースコアをひとつかふたつ付ける
+\end{itemize}
+
+\section{}
+\begin{itemize}
+\item object を継承すると新スタイルクラスになる
+\item \_\_slots\_\_ に操作可能なアトリビュートを指定できる
+\item property() でセッターとゲッターを利用可能
+\item super(class\_name, self) でスーパークラスを取得可能
+\item 特殊メソッドの項は必要になったら参照する
+\end{itemize}
+
+\section{}
+\begin{itemize}
+\item traceback モジュールを使うと例外の様子を取り出せる
+\end{itemize}
+
+\section{}
+とくになし
+
+\section{}
+\begin{itemize}
+\item ininstance() である変数がある型であるか調べられる
+\end{itemize}
+
+\section{}
+\begin{itemize}
+\item StringIO: 文字列のファイル風操作
+\item csv: csv ファイルの操作
+\item shelve: 辞書をファイルに保存しつつ用いる
+\item calendar: 便利なのかなこれ
+\item 他いろいろ書いてありますけど、細部は知らずとも存在は知っているものばかりだったので良しとします
+\end{itemize}
+
+\section{}
+\begin{itemize}
+\item 応用。GUI を作りたくなったら読む。
+\end{itemize}
+
+\section{}
+\begin{itemize}
+\item Python 3 について。必要になったら読みましょうという感じ。
+\end{itemize}
+
+
+\end{document}
